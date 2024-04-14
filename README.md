@@ -8,3 +8,5 @@ Analog output = (ADC Value / 1023)
 Moisture in percentage = 100 – (Analog output * 100)
 For zero moisture, we get a 10-bit ADC value maximum i.e. 1023 which in turn
 gives 0% moisture.
+The code is written in C language in Atmel Studio 7.0 and the simulation is done in Proteus 8 Professional.
+The soil moisture sensor library was also installed in proteus.
